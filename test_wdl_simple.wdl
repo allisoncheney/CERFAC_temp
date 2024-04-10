@@ -5,6 +5,12 @@ version 1.0
 
 
 workflow test_workflow {
+    meta {
+        author: "Allison Cheney"
+        email: "archeney@ucsc.edu"
+        description: "This is just a test"
+    }
+
   input {
     String GENE_NAME
     String ASSEMBLY
