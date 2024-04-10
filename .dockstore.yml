@@ -1,0 +1,7 @@
+    version: 1.2
+    workflows:
+        - subclass:  WDL
+          primaryDescriptorPath: /wdl/workflows/test_wdl_simple.wdl
+          authors:
+              - name: Allison Cheney
+                email: archeney@ucsc.edu
